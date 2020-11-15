@@ -1,0 +1,77 @@
+.question{
+    color: blue;
+    border-color: #4CAF50;
+}
+.answer{
+    color: black;
+}
+#mockBot{
+    
+    box-sizing: border-box;
+    z-index: 1000;
+    
+    width: 30rem;
+    max-width: 90vw;
+    
+    padding: 1rem;
+    
+    min-height: 5rem;
+    
+     position: fixed;
+     bottom: 0;
+     right: 15px;
+     border: 3px solid #f1f1f1;
+     z-index: 9;
+     background: rgb(245, 245, 245);
+}
+#mockBot .popup{
+    display: none;
+}
+#mockBot .head{
+    
+    padding: 1rem;
+    background-color: darkred;
+    color: white;
+}
+#mockBot textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 5rem;
+  box-sizing: border-box;
+}
+#mockBot .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+#mockBot .cancel{
+    background-color: darkred;
+}
+#mockBot .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+ 
+#mockBot .msg{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid lightsalmon;
+    margin-bottom: 10px;
+}
+
+#mockBot .msg .question{
+    border-color: #4CAF50;
+}
+
+#mockBot .conversation {
+    max-height: 30rem;
+    overflow-y: hidden;
+}
