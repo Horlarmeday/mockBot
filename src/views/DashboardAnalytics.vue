@@ -158,8 +158,8 @@
                   <feather-icon icon="MoreVerticalIcon" svgClasses="w-6 h-6 text-grey"></feather-icon>
                 </template>
                 <div class="flex">
-                  <span class="flex items-center"><div class="h-3 w-3 rounded-full mr-1 bg-primary"></div><span>Sales</span></span>
-                  <span class="flex items-center ml-4"><div class="h-3 w-3 rounded-full mr-1 bg-success"></div><span>Visits</span></span>
+                  <span class="flex items-center"><div class="h-3 w-3 rounded-full mr-1 bg-primary"></div><span>Interview</span></span>
+                  <span class="flex items-center ml-4"><div class="h-3 w-3 rounded-full mr-1 bg-success"></div><span>Candidates</span></span>
                 </div>
                 <div slot="no-body-bottom">
                   <vue-apex-charts type="radar" height="385" :options="analyticsData.statisticsRadar.chartOptions" :series="salesRadar.series" />
